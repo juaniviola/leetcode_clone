@@ -17,12 +17,14 @@ Base structure
 ```javascript
 {
   "problems": {
-    "name_problem_1": [
-      "simple test case",
-      "evaluator code",
-      "correct answer",
-      "complete test case"
-    ],
+    "name_problem_1": {
+      "extension_language": [ /* ONLY C++ and Javascript are available (as cpp and js) */
+        "simple test case",
+        "evaluator code",
+        "correct answer",
+        "complete test case"
+      ],
+    }
   },
   "statements": {
     "name_problem_1": {
@@ -31,7 +33,8 @@ Base structure
       "input": "simple test case",
       "statement": "html description problem",
       "templates": [
-        "solution file empty"
+        "solution file empty for cpp",
+        "solution file empty for js"
       ],
     }
   }

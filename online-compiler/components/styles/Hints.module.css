@@ -1,0 +1,18 @@
+.details {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+.details:hover {
+  cursor: pointer;
+  border: 1px solid #10009c;
+  border-radius: 3px;
+}
+
+.details:hover > .summary {
+  color: #10009c;
+}

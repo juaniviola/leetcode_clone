@@ -1,0 +1,47 @@
+# dependencies
+online-compiler/node_modules
+online-compiler/.pnp
+online-compiler/.pnp.js
+
+# testing
+online-compiler/coverage
+
+# next.js
+online-compiler/.next/
+online-compiler/out/
+
+# production
+online-compiler/build
+
+# misc
+online-compiler/.DS_Store
+online-compiler/*.pem
+
+# debug
+online-compiler/npm-debug.log*
+online-compiler/yarn-debug.log*
+online-compiler/yarn-error.log*
+online-compiler/.pnpm-debug.log*
+
+# local env files
+online-compiler/.env.local
+online-compiler/.env.development.local
+online-compiler/.env.test.local
+online-compiler/.env.production.local
+online-compiler/config.js
+
+# vercel
+online-compiler/.vercel
+online-compiler/yarn.lock
+
+# judge
+judge/.env
+judge/package-lock.json
+judge/yarn.lock
+judge/node_modules
+
+# api
+api/modules/online-compiler.json
+api/package-lock.json
+api/yarn.lock
+api/node_modules

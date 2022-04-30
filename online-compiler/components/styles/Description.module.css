@@ -1,0 +1,17 @@
+.title {
+  padding-top: 2%;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.problem {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.title_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

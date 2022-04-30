@@ -1,0 +1,72 @@
+.config {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  border: 1px solid #cccccc;
+}
+
+.select {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.select:hover {
+  cursor: pointer;
+}
+
+.theme {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+.theme:hover {
+  background-color: #cccccc;
+}
+
+.compile {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons {
+  margin-bottom: 10px;
+}
+
+.run_button {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: white;
+  margin-right: 10px;
+  font-size: 14px;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+
+.run_button:hover {
+  cursor: pointer;
+  background-color: #cccccc;
+}
+
+.submit_button {
+  border: 1px solid #10009c;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: #10009c;
+  color: white;
+  font-size: 14px;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+
+.submit_button:hover {
+  cursor: pointer;
+  background-color: #3c2fb3;
+}

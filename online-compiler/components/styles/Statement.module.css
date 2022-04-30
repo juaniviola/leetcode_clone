@@ -1,0 +1,16 @@
+.code {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #F5F5F5;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: 14px;
+}
+
+.sub {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  color: #C7254E;
+  background-color: #F9F2F4;
+  border-radius: 3px;
+}
